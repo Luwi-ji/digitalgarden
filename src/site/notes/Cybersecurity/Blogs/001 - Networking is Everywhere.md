@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/001-networking-is-everywhere/","title":"Networking is Everywhere","tags":["Networking","THM","gardenEntry"],"dg-note-properties":{"title":"Networking is Everywhere","date":"July 2025","tags":["Networking","THM","gardenEntry"]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/001-networking-is-everywhere/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 When I first heard the word **[[Cybersecurity/Terms/networking\|Networking]]**, I immediately thought about people. Porter Gale's famous book reminds us that the relationships we build can become one of our greatest assets. That's what "network" meant to me for a long time.
