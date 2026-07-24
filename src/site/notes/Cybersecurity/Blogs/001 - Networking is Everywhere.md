@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/001-networking-is-everywhere/","tags":["gardenEntry"],"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/001-networking-is-everywhere/","tags":["gardenEntry"],"created":"2026-07-23T09:11:37.300+08:00","updated":"2026-07-24T22:51:38.449+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:51:36","status":"Draft","tags":["gardenEntry"]}}
 ---
 
 When I first heard the word **[[Cybersecurity/Terms/networking\|Networking]]**, I immediately thought about people. Porter Gale's famous book reminds us that the relationships we build can become one of our greatest assets. That's what "network" meant to me for a long time.
@@ -16,7 +16,7 @@ After today's lesson, I think I'm beginning to understand why.
 
 Cybersecurity isn't just about attacking or protecting computers, it's about protecting how those computers **communicate**. And before I can secure that communication, I first need to understand how they communicate with each other.
 
-That journey begins with one simple question:
+That journey begins with one simple question: 
 
 **What is a [[Cybersecurity/Terms/network\|network]]?**
 
