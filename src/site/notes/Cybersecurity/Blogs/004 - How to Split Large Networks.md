@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/004-how-to-split-large-networks/","created":"2026-07-24T11:02:22.939+08:00","updated":"2026-07-25T00:17:18.095+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/004-how-to-split-large-networks/","created":"2026-07-24T11:02:22.939+08:00","updated":"2026-08-13T11:22:45.268+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 In the [last learning journal](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F003%20-%20The%20Devices%20That%20Keep%20Networks%20Running), I learned that a **[[Cybersecurity/Terms/Router\|Router]]** connects different networks together while a **[[Cybersecurity/Terms/switch\|Switch]]** helps devices communicate within the same network.
@@ -25,7 +25,7 @@ Imagine a company with different departments:
 - Finance
 - Human Resources
 
-![Pasted image 20260723211051.png](/img/user/Archive/Pasted%20image%2020260723211051.png)
+![Pasted image 20260723211051.png](/img/user/Archive/Images/Pasted%20image%2020260723211051.png)
 
 In real life, you already know which department a document belongs to. Networks have a similar problem.
 
@@ -38,11 +38,11 @@ That was the moment I realized subnetting isn't just about IP addresses. It's re
 ---
 ## Subnet Mask
 
-Once I understood **why** subnetting exists, I started looking at **how** it's done. That's where I came across something called a **[[Cybersecurity/Terms/Subnet Mask\|Subnet Mask]]**.
+Understanding **why** subnetting exists, I came across to its **[[Cybersecurity/Terms/Subnet Mask\|Subnet Mask]]**.
 
 At first glance, it looked almost identical to an **[[Cybersecurity/Terms/IP address\|IP Address]]**.
 
-![Pasted image 20260724085121.png](/img/user/Archive/Pasted%20image%2020260724085121.png)
+![Pasted image 20260724085121.png](/img/user/Archive/Images/Pasted%20image%2020260724085121.png)
 
 Like an IP address, it's made up of four octets and contains values between **0** and **255**. I'm not going to pretend I fully understand how subnet masks work yet. But for now, I only know that they're what allow a network to be divided into smaller subnetworks.
 
@@ -88,7 +88,7 @@ Now that I know networks can be divided into smaller pieces, another question ca
 
 That question led me to something called the **Address Resolution Protocol (ARP)**.
 
-Looks like that's where we are headed [next](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F005%20-%20ARP) ([[Cybersecurity/Blogs/005 - How Do Devices Find Each Other\|005 - How Do Devices Find Each Other]]).
+Looks like that's where we are headed [next](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F005%20-%20How%20Do%20Devices%20Find%20Each%20Other).
 
 ---
 Reference

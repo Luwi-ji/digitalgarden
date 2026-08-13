@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/005-how-do-devices-find-each-other/","created":"2026-07-24T11:02:49.455+08:00","updated":"2026-08-05T17:54:38.364+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/005-how-do-devices-find-each-other/","created":"2026-07-24T11:02:49.455+08:00","updated":"2026-08-13T11:37:36.670+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 After learning about [[Cybersecurity/Terms/IP address\|IP addresses]] in my [first journal](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F001%20-%20Networking%20is%20Everywhere), I thought I finally understood how devices communicate. But along the way, it created a question:
@@ -12,7 +12,7 @@ They communicate through their physical network hardware, and every network inte
 
 So somehow, a device has to translate an IP address into a MAC address before communication can begin.
 
-That's exactly the problem today's lesson answered.
+That's exactly the problem that today's lesson answered.
 
 ---
 ## Meet ARP
@@ -47,7 +47,7 @@ Every device receives the request. Most ignore it and only the device that actua
 
 It sends back an **[[Cybersecurity/Terms/ARP Reply\|ARP Reply]]** containing its MAC address. **Once the requesting device receives the reply, communication can finally begin** as we can see in the diagram below:
 
-![Pasted image 20260724092614.png](/img/user/Archive/Pasted%20image%2020260724092614.png)
+![Pasted image 20260724092614.png](/img/user/Archive/Images/Pasted%20image%2020260724092614.png)
 
 
 ---
@@ -71,13 +71,15 @@ The next time it wants to communicate with the same device, it can simply check 
 That's where ARP quietly does its job.
 
 It's one of those technologies I had never heard of before, yet it's happening constantly whenever devices communicate on the same network.
+
+---
 ## Next Rabbit Hole
 
 Today's lesson answered how devices discover each other. But to our next stop, we'll answer a question immediately followed after learning about it:
 
 **If every device needs an IP address before ARP can even work... who gives that IP address in the first place?**
 
-Looks like the next stop is about [DHCP](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F006%20-%20How%20Do%20Devices%20Get%20an%20IP%20Address)-[[Cybersecurity/Blogs/006 - How Do Devices Get an IP Address\|006 - How Do Devices Get an IP Address]].
+Looks like the next stop is about [DHCP](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F006%20-%20How%20Do%20Devices%20Get%20an%20IP%20Address).
 
 ---
 Reference

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/008-what-really-happens-when-you-visit-a-website/","created":"2026-07-24T13:19:01.707+08:00","updated":"2026-08-06T23:27:15.903+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/008-what-really-happens-when-you-visit-a-website/","created":"2026-07-24T13:19:01.707+08:00","updated":"2026-08-13T12:03:27.497+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 So far, I've learned how devices communicate on a network using things like DNS, ARP, and DHCP. But one question still remained:
@@ -48,7 +48,7 @@ https://tryhackme.com/room/introtoweb
 
 looks simple, but it's actually made up of several parts.
 
-![Pasted image 20260806231525.png](/img/user/Pasted%20image%2020260806231525.png)
+![Pasted image 20260806231525.png](/img/user/Archive/Images/Pasted%20image%2020260806231525.png)
 
 ## Breaking Down a URL
 

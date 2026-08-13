@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/001-networking-is-everywhere/","tags":["gardenEntry"],"created":"2026-07-23T09:11:37.300+08:00","updated":"2026-07-24T23:18:17.247+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:51:28","status":"Draft","tags":["gardenEntry"]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/001-networking-is-everywhere/","tags":["gardenEntry"],"created":"2026-07-23T09:11:37.300+08:00","updated":"2026-08-13T11:09:09.773+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:51:28","status":"Draft","tags":["gardenEntry"]}}
 ---
 
 When I first heard the word **[[Cybersecurity/Terms/networking\|Networking]]**, I immediately thought about people. Porter Gale's famous book reminds us that the relationships we build can become one of our greatest assets. That's what "network" meant to me for a long time.
@@ -61,11 +61,11 @@ One thing I found interesting is that an IP address isn't necessarily permanent.
 
 For now, here's the IPv4 structure that I encountered in today's lesson:
 
-![Pasted image 20260723171625.png](/img/user/Archive/Pasted%20image%2020260723171625.png)
+![Pasted image 20260723171625.png](/img/user/Archive/Images/Pasted%20image%2020260723171625.png)
 
 I also learned that these four groups of numbers are called **octets**. I don't fully understand how they're calculated yet but that's something I'll explore later when I study [[Cybersecurity/Terms/IP Addressing & Subnetting\|IP Addressing & Subnetting]].
 
-![Pasted image 20260723175014.png](/img/user/Archive/Pasted%20image%2020260723175014.png)
+![Pasted image 20260723175014.png](/img/user/Archive/Images/Pasted%20image%2020260723175014.png)
 
 For now, I'm just trying to understand the bigger picture before diving into the details.
 
@@ -80,8 +80,6 @@ This is used for communication inside a local network like my home Wi-Fi.
 
 This is the address that represents my network on the Internet.
 
-Seeing the example below finally made it click.
-
 | **Device Name** | **IP Address** | **IP Address Type** |
 | --------------- | -------------- | ------------------- |
 | DESKTOP-KJE57FD | 192.168.1.77   | Private             |
@@ -91,14 +89,10 @@ Seeing the example below finally made it click.
 
 Both computers have different private IP addresses, but they share the same public IP address because they're connected to the same Internet connection through the same router.
 
-That's a detail I definitely wouldn't have figured out on my own.
-
 ---
 ## [[Cybersecurity/Terms/IPv4\|IPv4]] and [[Cybersecurity/Terms/IPv6\|IPv6]]
 
-While learning about IP addresses, another question popped into my head.
-
-**If every device in the world needs an IP address, what will happen when we run out of combinations?**
+Now, **if every device in the world needs an IP address, what will happen when we run out of combinations?**
 
 Apparently, that's exactly what happened with IPv4.
 
@@ -108,7 +102,7 @@ That's one of the reasons [[Cybersecurity/Terms/IPv6\|IPv6]] was introduced yet 
 
 Today's goal wasn't memorization but simply understanding **why IPv6 exists**. It extend the existing IPv4 with a new type of combinations as we can see in the picture below:
 
-![Pasted image 20260723111505.png](/img/user/Archive/Pasted%20image%2020260723111505.png)
+![Pasted image 20260723111505.png](/img/user/Archive/Images/Pasted%20image%2020260723111505.png)
 
 IPv6 can support up to 2^128 of IP addresses (340 trillion-plus), resolving the issues faced with IPv4 and it's more efficient due to new methodologies
 
@@ -149,7 +143,7 @@ Running a simple command helped me realize that these concepts are actually happ
 
 If I had to describe today's lesson in one sentence, it would be this:
 
-**Networking isn't just really about cables as it's also about communication.**
+**Networking isn't just really about cables because it's also about communication.**
 
 Every device needs an identity. Every message needs a destination. Every connection follows standard rules. I still have a lot to learn, but I also feel like I now have a stronger foundation for everything that comes next in cybersecurity.
 

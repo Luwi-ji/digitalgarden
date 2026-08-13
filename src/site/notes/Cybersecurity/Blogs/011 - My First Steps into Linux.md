@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/011-my-first-steps-into-linux/","created":"2026-08-07T19:38:22.023+08:00","updated":"2026-08-08T16:47:35.812+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/011-my-first-steps-into-linux/","created":"2026-08-07T19:38:22.023+08:00","updated":"2026-08-08T20:30:36.980+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 ## So... Why Do Cybersecurity Professionals Use Linux?
@@ -246,9 +246,7 @@ This simply adds the new line to the end of the file.
 ---
 ## Conclusion
 
-Before this lesson, Linux felt like a completely different world.
-
-Now I realize that most of what I'm doing is simply learning a new way to interact with a computer.
+I realize that most of what I'm doing is simply learning a new way to interact with a computer.
 
 Instead of clicking through folders, I use commands.
 

@@ -17,7 +17,7 @@ I've encountered some [[Cybersecurity/Terms/types of LAN Topology\|types of LAN 
 ### 1. [[Cybersecurity/Terms/Star Topology\|Star Topology]]
 
 Devices in the Star topology are individually connected through a central networking device such as a [[Cybersecurity/Terms/switch\|switch]] or [[Cybersecurity/Terms/hub\|hub]] as we can see in the diagram below:
-![Pasted image 20260723190901.png](/img/user/Archive/Pasted%20image%2020260723190901.png)
+![Pasted image 20260723190901.png](/img/user/Archive/Images/Pasted%20image%2020260723190901.png)
 Any information sent to a device in this topology is sent via the central device to which it connects. 
 
 One of its disadvantages is that its costly because more cabling are needed to build this topology. However, this is scalable as it is very easy to add more devices as the demand for the network increases.
@@ -27,7 +27,7 @@ Unfortunately, adding more devices, the more maintenance is required to keep thi
 ### 2. [[Cybersecurity/Terms/Bus Topology\|Bus Topology]]
 
 As we can see in the diagram below, this type of design has a backbone cable similar to the leaf of a tree where devices are the leaves that stem from where branches are on this cable.
-![Pasted image 20260723193339.png](/img/user/Archive/Pasted%20image%2020260723193339.png)
+![Pasted image 20260723193339.png](/img/user/Archive/Images/Pasted%20image%2020260723193339.png)
 
 Since devices have the same cable destined to each other, it is prone to becoming slow and bottlenecks if devices within this topology are simultaneously requesting data. This results to a very difficult troubleshooting because its hard to identify which device is causing or experiencing issues with the data is travelling along the same route.
 
@@ -39,7 +39,7 @@ However, another disadvantage of this topology is the redundancy in place in cas
 
 This is also known as Token Topology because of its structure as we can see in the diagram below:
 
-![Pasted image 20260723193503.png](/img/user/Archive/Pasted%20image%2020260723193503.png)
+![Pasted image 20260723193503.png](/img/user/Archive/Images/Pasted%20image%2020260723193503.png)
 
 Devices in this topology are connected to each other to form a loop in a circle so there will less cabling required to set up and less dependence on dedicated centralized hardware unlike to the star topology.
 

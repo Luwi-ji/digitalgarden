@@ -15,7 +15,7 @@ From what I've learned so far, a **[[Cybersecurity/Terms/switch\|Switch]]** is r
 
 Switches are commonly found in places where many devices need to communicate with each other, such as schools, offices, and businesses. Depending on the model, they can have different numbers of ports like 4, 8, 16, 24, 32, or even 64 ports.
 
-![Pasted image 20260723195647.png](/img/user/Archive/Pasted%20image%2020260723195647.png)
+![Pasted image 20260723195647.png](/img/user/Archive/Images/Pasted%20image%2020260723195647.png)
 
 Something I found interesting is that a switch doesn't simply send data everywhere.
 
@@ -56,7 +56,7 @@ The process a router uses to move data between different networks is called **[[
 
 From what I understand, routing is simply deciding which path a packet should take to reach its destination.
 
-![Pasted image 20260723203037.png](/img/user/Archive/Pasted%20image%2020260723203037.png)
+![Pasted image 20260723203037.png](/img/user/Archive/Images/Pasted%20image%2020260723203037.png)
 
 I like thinking of it like using Google Maps.
 

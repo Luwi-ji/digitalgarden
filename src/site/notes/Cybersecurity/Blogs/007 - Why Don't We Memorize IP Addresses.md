@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/007-why-don-t-we-memorize-ip-addresses/","created":"2026-07-24T12:54:01.501+08:00","updated":"2026-08-06T22:19:43.633+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/007-why-don-t-we-memorize-ip-addresses/","created":"2026-07-24T12:54:01.501+08:00","updated":"2026-08-13T11:58:34.338+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 In the [previous journal](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F006%20-%20How%20Do%20Devices%20Get%20an%20IP%20Address), we learned how devices automatically receive an [[Cybersecurity/Terms/IP address\|IP Address]] through [[Cybersecurity/Terms/DHCP\|DHCP]] so every device on the Internet has its own unique IP address.
@@ -48,7 +48,7 @@ Without DNS, using the Internet would mean using a lots of combination of number
 ## Domain Structure
 
 Another thing I found interesting is that a domain name is actually made up of different parts as we can see in the diagram below:
-![Pasted image 20260724124544.png](/img/user/Archive/Pasted%20image%2020260724124544.png)
+![Pasted image 20260724124544.png](/img/user/Archive/Images/Pasted%20image%2020260724124544.png)
 
 Take this website as an example:
 
@@ -66,7 +66,7 @@ It can be broken down into three sections:
 
 - **.com** is the **Top-Level Domain (TLD)**.
 - **tryhackme** is the **Second-Level Domain**.
-- **blog** is the **Subdomain**.
+- **admin** is the **Subdomain**.
 
 When registering a domain name, the second-level domain and its subdomain is limited to 63 characters + the TLD and can only use a-z 0-9 and hyphens (cannot start or end with hyphens or have consecutive hyphens).
 
@@ -167,9 +167,7 @@ I hadn't realized DNS was involved in email too.
 ---
 ### TXT Record
 
-The **[[TXT Record\|TXT Record]]** surprised me the most because it doesn't point anywhere.
-
-It simply stores text.
+The **[[TXT Record\|TXT Record]]** doesn't point anywhere. It simply stores text.
 
 That text can be used for many different purposes, such as verifying ownership of a domain or helping email providers determine whether an email is legitimate.
 
@@ -194,7 +192,7 @@ The TLD Server then points it to the website's **[[Authoritative DNS Server\|Aut
 
 Finally, the IP address is returned all the way back to my computer, and only then can my browser connect to the website.
 
-![Pasted image 20260724125222.png](/img/user/Archive/Pasted%20image%2020260724125222.png)
+![Pasted image 20260724125222.png](/img/user/Archive/Images/Pasted%20image%2020260724125222.png)
 
 Reading those steps made me realize that DNS isn't just one server.
 
@@ -204,12 +202,26 @@ It's actually an entire system of servers working together to answer one simple 
 
 ---
 ## Conclusion
- I can now understand that DNS is one of the reasons the Internet is so easy to use because without DNS, every website would have to be accessed using an IP address instead of a name.
+
+I can now understand that DNS is one of the reasons the Internet is so easy to use because without DNS, every website would have to be accessed using an IP address instead of a name.
 
 Something as simple as typing **youtube.com** or **google.com** actually starts a chain of events involving caches, recursive servers, root servers, TLD servers, and authoritative servers before the webpage even begins loading.
 
-It's amazing how much work happens in just a fraction of a second.
+---
+## Next Rabbit Hole
 
+Now that I know **how my computer finds a website**, another question came to mind.
+
+**Once the IP address is found, how does my browser actually communicate with the web server?**
+
+That sounds like the perfect time to learn about [HTTP](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F008%20-%20What%20Really%20Happens%20When%20You%20Visit%20a%20Website).
+
+See you in the next learning journal. 👋
+
+---
+### Reference
+
+- TryHackMe — [DNS in Detail](https://tryhackme.com/module/how-the-web-works)
 
 
 

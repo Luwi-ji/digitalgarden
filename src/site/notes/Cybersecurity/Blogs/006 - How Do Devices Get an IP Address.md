@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/006-how-do-devices-get-an-ip-address/","created":"2026-07-24T11:02:49.455+08:00","updated":"2026-08-05T22:26:18.692+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/006-how-do-devices-get-an-ip-address/","created":"2026-07-24T11:02:49.455+08:00","updated":"2026-08-07T19:47:14.966+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 
@@ -70,7 +70,7 @@ Once this exchange finishes, the device officially has its own IP address and ca
 
 Let's take a look in the diagram below to fully understand the process of DHCP:
 
-![Pasted image 20260724103150.png](/img/user/Archive/Pasted%20image%2020260724103150.png)
+![Pasted image 20260724103150.png](/img/user/Archive/Images/Pasted%20image%2020260724103150.png)
 
 ---
 
@@ -97,7 +97,7 @@ Now that devices can automatically receive an IP address, another question poppe
 
 **I know computers communicate using IP addresses, but I never type IP addresses into my browser. I type names like `google.com` instead. So how does my computer know which IP address belongs to a website?**
 
-Looks like the next piece of the puzzle is about [DNS](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F007%20-%20Why%20Don't%20We%20Memorize%20IP%20Addresses)- [[Cybersecurity/Notes/007 - DNS in Detail\|007 - DNS in Detail]].
+Looks like the next piece of the puzzle is about [DNS](obsidian://open?vault=Luwiji's%20Vault&file=Cybersecurity%2FBlogs%2F007%20-%20Why%20Don't%20We%20Memorize%20IP%20Addresses).
 
 ---
 Reference
