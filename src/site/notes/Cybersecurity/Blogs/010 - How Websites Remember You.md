@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/010-how-websites-remember-you/","created":"2026-08-06T23:35:39.242+08:00","updated":"2026-08-07T19:36:35.983+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/010-how-websites-remember-you/","created":"2026-08-06T23:35:39.242+08:00","updated":"2026-08-14T09:19:40.473+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 In my previous journal, I learned that browsers communicate with web servers using **HTTP Requests** and **HTTP Responses**.
@@ -57,7 +57,7 @@ Some websites use this information to display pages differently depending on the
 ---
 ### Content-Length
 
-Whenever I send information to a server—such as submitting a form—the **Content-Length** header tells the server how much data to expect.
+Whenever I send information to a server such as submitting a form, the **Content-Length** header tells the server how much data to expect.
 
 This helps the server know whether it has received the complete request.
 
