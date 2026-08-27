@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/018-understanding-the-life-of-a-packet/","created":"2026-08-20T20:39:57.249+08:00","updated":"2026-08-21T23:56:03.675+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/018-understanding-the-life-of-a-packet/","created":"2026-08-20T20:39:57.249+08:00","updated":"2026-08-24T14:54:59.949+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 Before moving on to network security protocols, I decided to take a step back.
@@ -271,7 +271,7 @@ They're designed around different requirements.
 
 This was probably the most valuable part of revisiting the room.
 
-I had already learned about encapsulation in my previous posts.
+I had already learned about encapsulation in my previous journals.
 
 But now I could see the entire process more clearly.
 
@@ -453,7 +453,7 @@ And I can think about the routers forwarding it toward its destination.
 
 I'm starting to understand not just **what networking concepts are**, but **how they work together to make communication possible**.
 
-And now I feel much more prepared to take the next step.
+And now I feel much more prepared to take the next rabbit hole.
 
 ---
 # Next Rabbit Hole

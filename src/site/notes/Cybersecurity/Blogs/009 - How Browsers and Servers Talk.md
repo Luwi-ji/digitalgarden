@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/blogs/009-how-browsers-and-servers-talk/","created":"2026-08-06T23:30:14.857+08:00","updated":"2026-08-07T16:00:36.590+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/blogs/009-how-browsers-and-servers-talk/","created":"2026-08-06T23:30:14.857+08:00","updated":"2026-08-24T16:13:41.029+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 In my previous journal, I learned that every time I visit a website, my browser sends an **HTTP Request**, and the server replies with an **HTTP Response**.
@@ -20,7 +20,6 @@ An **HTTP Method** tells the web server **what action the client wants to perfor
 I like thinking of it as the **verb** of an HTTP request. It tells the server what I'm trying to do with a resource.
 
 Although HTTP supports many methods, these are the ones I'll probably encounter most often.
-
 ### GET
 
 The **GET** method asks the server to send information back.
