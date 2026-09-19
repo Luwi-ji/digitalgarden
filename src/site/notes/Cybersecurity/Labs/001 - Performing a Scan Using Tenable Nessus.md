@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/labs/001-performing-a-scan-using-tenable-nessus/","created":"2026-09-19T18:08:22.185+08:00","updated":"2026-09-19T19:55:37.134+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/labs/001-performing-a-scan-using-tenable-nessus/","created":"2026-09-19T18:08:22.185+08:00","updated":"2026-09-19T19:56:19.028+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 **Mentor:** Sir Jay and Sir Ray
@@ -26,11 +26,11 @@ For this lab, I used **Windows XP as the target machine** and ran it inside **VM
 
 The following tools and systems were used:
 
-- **Tenable Nessus Essentials Plus for Education** — vulnerability scanner
-- **VMware Workstation Pro** — virtualization platform
-- **Windows XP** — target/test machine
-- **Windows host computer** — scanning machine
-- **Host-only Network** — isolated network between the host and virtual machine
+- **Tenable Nessus Essentials Plus for Education** - vulnerability scanner
+- **VMware Workstation Pro** - virtualization platform
+- **Windows XP** - target/test machine
+- **Windows host computer** - scanning machine
+- **Host-only Network** - isolated network between the host and virtual machine
 
 The target Windows XP machine was configured with the IP address:
 
