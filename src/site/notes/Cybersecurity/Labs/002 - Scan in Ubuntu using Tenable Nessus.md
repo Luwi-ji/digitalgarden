@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/labs/002-scan-in-ubuntu-using-tenable-nessus/","created":"2026-09-19T21:31:10.247+08:00","updated":"2026-09-19T21:44:34.897+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/labs/002-scan-in-ubuntu-using-tenable-nessus/","created":"2026-09-19T21:31:10.247+08:00","updated":"2026-09-19T21:44:51.794+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 Cybersecurity Coaches: Jeremiah Batac and Ray Caparros
@@ -31,7 +31,7 @@ Once Ubuntu was running, I opened the Terminal and entered "ip addr"
 
 The Ubuntu machine was assigned with an **IP Address of `192.168.78.130/24`**
 
-Since I was using VMware's Host-only network, I wanted to make sure that the Ubuntu machine was on the same subnet as my Windows computer, which is running Nessus.
+Since I was using VMware's Host-only network, I wanted to make sure that the Ubuntu machine was on the same subnet as my Windows computer which is running the Nessus.
 
 I entered "ipconfig" on my Windows terminal and get these important details:
 
