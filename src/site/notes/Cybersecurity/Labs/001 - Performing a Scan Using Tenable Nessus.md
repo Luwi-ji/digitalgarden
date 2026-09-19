@@ -1,8 +1,8 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/labs/001-performing-a-scan-using-tenable-nessus/","created":"2026-09-19T18:08:22.185+08:00","updated":"2026-09-19T19:57:53.104+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/labs/001-performing-a-scan-using-tenable-nessus/","created":"2026-09-19T18:08:22.185+08:00","updated":"2026-09-19T20:11:49.854+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
-**Mentor:** Sir Jay and Sir Ray
+Cybersecurity Coaches: Jeremiah Batac and Ray Caparros
 **Task:** Install Tenable Nessus, build a Windows XP/Windows 7 test machine on the same subnet, perform a vulnerability scan, and document the process.
 
 ---
