@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/labs/001-performing-a-scan-using-tenable-nessus/","created":"2026-09-19T18:08:22.185+08:00","updated":"2026-09-19T19:56:19.028+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/labs/001-performing-a-scan-using-tenable-nessus/","created":"2026-09-19T18:08:22.185+08:00","updated":"2026-09-19T19:57:53.104+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 **Mentor:** Sir Jay and Sir Ray
@@ -82,9 +82,7 @@ I downloaded **VMware Workstation Pro** from VMware's official website:
 
 I then obtained a Windows XP ISO here https://isoriver.com/windows-xp-iso-download/ and used it to create a new virtual machine.
 
-After creating the virtual machine, I configured its network adapter to use:
-
-**Host-only**
+After creating the virtual machine, I configured its network adapter to use **Host-only**
 
 ![Pasted image 20260919194849.png](/img/user/Pasted%20image%2020260919194849.png)
 
