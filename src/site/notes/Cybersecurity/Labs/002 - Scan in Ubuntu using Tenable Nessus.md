@@ -1,11 +1,11 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/labs/002-scan-in-ubuntu-using-tenable-nessus/","created":"2026-09-19T21:31:10.247+08:00","updated":"2026-09-19T21:42:35.568+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/labs/002-scan-in-ubuntu-using-tenable-nessus/","created":"2026-09-19T21:31:10.247+08:00","updated":"2026-09-19T21:43:41.460+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 Cybersecurity Coaches: Jeremiah Batac and Ray Caparros
 
 ---
-After completing the Windows XP assessment, I was tasked to perform the same vulnerability scanning process on a Linux machine. For the target, I used Ubuntu and ran it as a virtual machine through VMware Workstation.
+After completing the Windows XP scan, I was tasked to perform the same vulnerability scanning process on a Linux machine. For the target, I used Ubuntu and ran it as a virtual machine through VMware Workstation.
 
 I downloaded the Ubuntu ISO from the official Ubuntu website:
 
