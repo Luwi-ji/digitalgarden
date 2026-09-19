@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cybersecurity/labs/001-performing-a-scan-using-tenable-nessus/","created":"2026-09-19T18:08:22.185+08:00","updated":"2026-09-19T19:55:03.235+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
+{"dg-publish":true,"permalink":"/cybersecurity/labs/001-performing-a-scan-using-tenable-nessus/","created":"2026-09-19T18:08:22.185+08:00","updated":"2026-09-19T19:55:37.134+08:00","dg-note-properties":{"created":"2026-07-24 22:22:18","updated":"2026-07-24 22:48:34","status":"Draft","tags":[]}}
 ---
 
 **Mentor:** Sir Jay and Sir Ray
@@ -10,7 +10,7 @@
 
 The objective of this activity was to gain hands-on experience with **vulnerability scanning using Tenable Nessus**.
 
-As assigned by my mentor, Sir Jay, I needed to:**
+As assigned by my mentor, Sir Jay, I needed to:
 
 1. Install Tenable Nessus.
 2. Build a Windows XP or Windows 7 virtual machine.
